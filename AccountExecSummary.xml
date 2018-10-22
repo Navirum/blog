@@ -1,0 +1,13 @@
+<apex:page standardController="Account">
+
+<!--Property of Navirum Inc -->
+<!--Written by Rory Galvin 03/09/2017 -->
+ 
+ <apex:pageBlock title="Account Exec Summary">
+           Name:  {!account.Name} <br/>
+           Account Owner: {!account.owner.Name} <br/>
+           Account Phone Number: {!account.Phone} <br/>
+           Opportunity Value: {!account.OpportunityValue__c} <br/>
+ </apex:pageBlock>
+ 
+</apex:page>
